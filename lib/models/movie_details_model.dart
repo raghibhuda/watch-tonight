@@ -65,8 +65,8 @@ class MovieDetailsModel{
 
     List<SpokenLanguages> _spokenLanguages(Map<String,dynamic>json){
       final spokenLanguages = <SpokenLanguages>[];
-      if(json['genres'] != null){
-        json['genres'].forEach((v){
+      if(json['spoken_languages'] != null){
+        json['spoken_languages'].forEach((v){
           spokenLanguages.add(new SpokenLanguages.fromJson(v));
         });
       }
