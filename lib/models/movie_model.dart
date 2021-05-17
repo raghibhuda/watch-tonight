@@ -46,7 +46,6 @@ class MovieModel {
       genreIds: json['genre_ids'].cast<int>(),
       overview: json['overview'],
       posterPath: json['poster_path'],
-
     );
   }
 }
